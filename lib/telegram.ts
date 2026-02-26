@@ -20,6 +20,9 @@ export async function telegramSend(text: string) {
       }),
     });
 
+      console.log("Telegram send ok");
+
+
     if (!res.ok) {
       const body = await res.text();
       console.error("Telegram send failed:", body);

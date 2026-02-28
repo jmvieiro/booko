@@ -37,7 +37,7 @@ export async function POST(req: Request) {
   //   const subject = `Nueva reserva: ${event?.title ?? "Evento"}`;
 
   //   await resend.emails.send({
-  //     from: "Booko <onboarding@resend.dev>",
+  //     from: "Simple Book <onboarding@resend.dev>",
   //     to: process.env.ADMIN_NOTIFY_EMAIL!,
   //     subject,
   //     text:

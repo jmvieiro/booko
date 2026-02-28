@@ -22,7 +22,7 @@ export default function AdminLoginPage() {
   return (
     <div className="min-h-screen flex items-center justify-center p-6">
       <form onSubmit={sendLink} className="w-full max-w-sm space-y-4">
-        <h1 className="text-2xl font-semibold">Booko</h1>
+        <h1 className="text-2xl font-semibold">Simple Book</h1>
         <input
           className="w-full border rounded p-3"
           placeholder="tu@email.com"

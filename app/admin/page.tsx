@@ -15,9 +15,11 @@ export default function AdminHome() {
     });
   }, [router]);
 
+  if (!email) return null; // o un loader
+
   return (
-    <div className="p-6">
-      <h1 className="text-xl font-semibold">Booko </h1>
+    <div className="p-6"> 
+      <h1 className="text-xl font-semibold">Simple Book </h1>
       <h2 className="text-md font-semibold">Panel Admin</h2>
       <p className="opacity-80">Logueado como: {email ?? "..."}</p>
     </div>
